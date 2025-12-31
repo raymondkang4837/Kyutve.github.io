@@ -9,7 +9,8 @@ title: ""
 .container {
   display: flex;
   gap: 60px;
-  max-width: 1400px;       /* 페이지 전체 폭 확장 */
+  width: 100%; 
+  max-width: 3000px;       /* 페이지 전체 폭 확장 */
   margin: 60px auto;
   align-items: flex-start; /* 위 정렬 */
 }
