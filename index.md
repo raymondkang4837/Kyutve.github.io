@@ -87,6 +87,8 @@ I document what I learn on [my blog](https://azurei.tistory.com/) — from conce
 
 ---
 
+
+
 ## **📃Education**
 
 **B.S. in Mathematics,** Kyung Hee University ( 2020.03 ~ 2026.02 )
@@ -99,6 +101,8 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 
 ---
 
+
+
 ## **🛠 Skills**
 
 **Python**, PyTorch, NumPy, Matplotlib, Git
@@ -106,6 +110,8 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 **Math:** Linear Algebra, PDE, Optimization, Matrix Calculus
 
 ---
+
+
 
 ## **Contact**
 
