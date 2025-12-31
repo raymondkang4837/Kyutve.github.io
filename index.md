@@ -63,31 +63,43 @@ h1 {
 
 <div class="info" markdown="1">
 
-# Kyutae Kang  
+# Kyutae Kang
 
-I am studying **Mathematics** and pursuing research in  
-**SLAM, 3D Vision, Optimization, and AI-driven geometric modeling**.
+I am studying Mathematics ****at KyungHee University, focusing on deep learning and its applications to computer vision. 
 
-My interests are centered around:
-- 📌 SLAM optimization (Jacobian, Cholesky based solvers)
-- 📌 ICP & LiDAR mapping (SVD rigid transform, pose refinement)
-- 📌 3D geometry + mathematical modeling
-- 📌 Computer vision foundations & structure from motion
+I document what I learn on [my blog](https://azurei.tistory.com/) — from concepts to implementation details and failures.
 
-Currently preparing for **AI/Computer Vision graduate studies**,  
-with a focus on math-based modeling and research-driven problem solving.
+---
+
+### 📃Education
+
+**B.S. in Mathematics,** Kyung Hee University ( 2020.03 ~ 2026.02 )
+
+GPA: 4.16 / 4.5 ( Major : 4.24 / 4.5 )
+
+Relevant Coursework : 
+
+Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, Stochastic Processes, Computational Fluid Dynamics, Optimization, Deep Learning
 
 ---
 
 ### 🛠 Skills
-**Python**, PyTorch, NumPy, Matplotlib, Git  
-**Math:** Linear Algebra, PDE, Optimization, Matrix Calculus  
+
+**Python**, PyTorch, NumPy, Matplotlib, Git
+
+**Math:** Linear Algebra, PDE, Optimization, Matrix Calculus
 
 ---
 
-### 📩 Contact
-If you want to connect or discuss research:
-> ✉️ your@email.com  
+## Contact
+
+I’d be happy to talk more — feel free to reach out anytime!
+
+✉️ [Email](mailto:your@email.com)
+
+🐱  [Github](https://github.com/kyutve)
+
+🏠 [Blog](https://azurei.tistory.com/)
 
 </div>
 </div>
