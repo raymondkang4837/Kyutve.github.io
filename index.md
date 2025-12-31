@@ -1,6 +1,6 @@
 ---
-layout: default
 title: "Kyutae Kang"
+markdown: kramdown
 ---
 
 <style>
