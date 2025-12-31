@@ -12,7 +12,10 @@ title: "Kyutae Kang"
   margin: 40px auto;
   font-family: sans-serif;
 }
-
+header, h1.site-title, .site-title, .page-title, .post-title {
+  display: none !important;
+  visibility: hidden;
+}
 .profile {
   flex: 1;
   max-width: 260px;
