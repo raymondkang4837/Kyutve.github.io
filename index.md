@@ -5,24 +5,27 @@ title: ""
 
 <style>
 /* 전체 컨테이너 간격 확장 */
+/* 레이아웃 전체 */
 .container {
   display: flex;
-  gap: 120px;                /* 좌우 간격 확대 */
-  max-width: 1200px;
+  gap: 60px;
+  max-width: 1400px;       /* 페이지 전체 폭 확장 */
   margin: 60px auto;
-}
-  
-/* 프로필 카드 크기 조정 */
-.profile {
-  flex: 0 0 320px;           /* 카드 폭 키움 */
-  min-height: auto;          /* 불필요한 여백 제거 */
-  padding: 28px;             /* 내부 간격 균일하게 */
-  background: #fafafa;
-  border: 1.5px solid #e5e5e5;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+  align-items: flex-start; /* 위 정렬 */
 }
 
+/* 프로필은 고정 크기 */
+.profile {
+  flex: 0 0 340px;         /* 고정 폭 */
+  min-width: 340px;
+}
+
+/* 본문 영역은 나머지 공간 전부 사용 */
+.info {
+  flex: 1;                 /* 남은 영역 전부 차지 */
+  max-width: 100%;         /* 넓게 확장 */
+  line-height: 1.85;
+}
 /* 프로필 이미지 정렬 + 크기 */
 .profile img {
   width: 95%;
@@ -42,11 +45,7 @@ title: ""
   line-height: 1.7;
   margin-bottom: 14px;
 }
-.info {
-  flex: 3;
-  min-width: 300px;
-  line-height: 1.6;
-}
+
 
 h1 {
   margin-top: 0;
