@@ -48,9 +48,9 @@ h1 {
 <div class="container">
 
 <div class="profile">
-  <img src="./images/profile2.jpg" alt="profile"> <!-- 프로필 이미지 경로 -->
+  <img src="./images/profile.jpg" alt="profile"> <!-- 프로필 이미지 경로 -->
   <h3>Kyutae Kang</h3>
-  <p>I major in Mathmatics 📏 and have interest in Computer Vision</p>
+  <p>I major in Mathematics 📏 and have interest in Computer Vision</p>
   <ul style="list-style:none; padding:0; line-height:1.8; margin-top:15px;">
   <li>📍 Seoul, Korea</li>
     <li>🏦 Kyung Hee University</li>
