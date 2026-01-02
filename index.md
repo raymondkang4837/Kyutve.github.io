@@ -58,8 +58,8 @@ layout: default
 }
 
 .icon {
-  width: 18px;
-  height: 18px;
+  width: 18px !important;
+  height: 18px !important;
   object-fit: contain;
 }
 
@@ -103,7 +103,7 @@ layout: default
       <span>Kyung Hee University</span>
     </li>
     <li>
-      <img src="./images/gemail.svg" class="icon" alt="Email">
+      <img src="./images/gmail.svg" class="icon" alt="Email"> 
       <a href="mailto:raymondkang4837@email.com">Email</a>
     </li>
     <li>
@@ -113,7 +113,7 @@ layout: default
       </a>
     </li>
     <li>
-      <img src="./images/tstory.svg" class="icon" alt="Blog">
+      <img src="./images/tistory.svg" class="icon" alt="Blog">
       <a href="https://azurei.tistory.com/" target="_blank">Blog</a>
     </li>
   </ul>
