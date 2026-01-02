@@ -121,11 +121,7 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 
 I’d be happy to talk more — feel free to reach out anytime!
 
-✉️ [Email](mailto:your@email.com)
-
-🐱  [Github](https://github.com/kyutve)
-
-🏠 [Blog](https://azurei.tistory.com/)
+[Email](mailto:your@email.com) / [Github](https://github.com/kyutve) / [Blog](https://azurei.tistory.com/)
 
 </div>
 </div>
