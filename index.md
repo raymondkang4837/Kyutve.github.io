@@ -17,13 +17,13 @@ title: ""
 
 /* 프로필은 고정 크기 */
 .profile {
-  flex: 0 0 340px;         /* 고정 폭 */
+  flex: 1px;         /* 고정 폭 */
   min-width: 340px;
 }
 
 /* 본문 영역은 나머지 공간 전부 사용 */
 .info {
-  flex: 1;                 /* 남은 영역 전부 차지 */
+  flex: 2;                 /* 남은 영역 전부 차지 */
   max-width: 100%;         /* 넓게 확장 */
   line-height: 1.85;
 }
@@ -61,7 +61,7 @@ h1 {
 
 .wrapper,
 .page-content {
-  max-width: none !important;
+  max-width: 100 !important;
 }
 </style>
 
