@@ -76,7 +76,7 @@ h1 {
   <li>📍 Seoul, Korea</li>
     <li>🏦 Kyung Hee University</li>
     <li>📧 <a href="mailto:raymondkang4837@email.com">Email</a></li>
-    <li>🐱 <a href="https://github.com/raymondkang4837" target="_blank">GitHub</a></li>
+    <li><img src"https://img.shields.io/badge/github-#181717?style=flat-square&logo=github&logoColor=white"/> <a href="https://github.com/raymondkang4837" target="_blank">GitHub</a></li>
     <li>🏡 <a href="https://azurei.tistory.com/" target="_blank">Blog</a></li>
   </ul>
 </div>
@@ -93,7 +93,7 @@ I document what I learn on [my blog](https://azurei.tistory.com/) — from conce
 ---
 <br><br>
 
-## **📃Education**
+## **Education**
 
 **B.S. in Mathematics,** Kyung Hee University ( 2020.03 ~ 2026.02 )
 
@@ -107,9 +107,9 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 
 <br><br>
 
-## **🛠 Skills**
+## **Skills**
 
-**Python**, PyTorch, NumPy, Matplotlib, Git
+**Docs**, PyTorch, NumPy, Matplotlib, Git
 
 **Math:** Linear Algebra, PDE, Optimization, Matrix Calculus
 
