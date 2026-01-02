@@ -1,6 +1,5 @@
 ---
 layout: default
-title: ""
 ---
 
 <style>
@@ -61,7 +60,7 @@ h1 {
 
 .wrapper,
 .page-content {
-  max-width: 100 !important;
+  max-width: none !important;
 }
 </style>
 
@@ -76,7 +75,7 @@ h1 {
   <li>📍 Seoul, Korea</li>
     <li>🏦 Kyung Hee University</li>
     <li>📧 <a href="mailto:raymondkang4837@email.com">Email</a></li>
-    <li><img src"https://img.shields.io/badge/github-#181717?style=flat-square&logo=github&logoColor=white"/> <a href="https://github.com/raymondkang4837" target="_blank">GitHub</a></li>
+    <li><img src="./images/github.svg" > <a href="https://github.com/raymondkang4837" target="_blank">GitHub</a></li>
     <li>🏡 <a href="https://azurei.tistory.com/" target="_blank">Blog</a></li>
   </ul>
 </div>
