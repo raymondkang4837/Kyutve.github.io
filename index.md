@@ -57,10 +57,12 @@ layout: default
 .icon-list li {
   display: flex;
   align-items: center;
+  line-height: 1.2;
 }
   
 .icon-wrapper {
-  width: 22px;               
+  width: 22px; 
+  height: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +76,9 @@ layout: default
 .icon {
   width: 18px !important;
   height: 18px !important;
+  border-radius: 0 !important;
   object-fit: contain;
+  display: block;
 }
 
 .emoji {
