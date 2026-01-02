@@ -152,13 +152,13 @@ layout: default
 
 <div class="info" markdown="1">
 
-# Kyutae Kang
+# **Kyutae Kang**
 
 I am studying Mathematics at KyungHee University, focusing on deep learning and its applications to computer vision. 
 
 I document what I learn on [my blog](https://azurei.tistory.com/) — from concepts to implementation details and failures.
 
----
+
 <br><br>
 
 ## **Education**
@@ -171,7 +171,7 @@ Relevant Coursework :
 
 Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, Stochastic Processes, Computational Fluid Dynamics, Optimization, Deep Learning
 
----
+
 
 <br><br>
 
@@ -181,7 +181,6 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 
 **Math:** Linear Algebra, PDE, Optimization, Matrix Calculus
 
----
 
 <br><br>
 
