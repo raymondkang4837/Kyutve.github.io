@@ -182,9 +182,10 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 Docs, PyTorch, NumPy, Matplotlib, Git
 
 Math: Linear Algebra, PDE, Optimization, Matrix Calculus
-<img src"https://img.shields.io/badge/뱃지이름-색상코드?style=flat-square&logo=로고명&logoColor=로고색"/>
-<img src"https://img.shields.io/badge/뱃지이름-색상코드?style=flat-square&logo=로고명&logoColor=로고색"/>
-![Hisd](https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=SpringBoot&logoColor=white)
+
+![Notion](https://img.shields.io/badge/notion-#000000?style=flat-square&logo=Notion&logoColor=white)
+
+
 <br><br>
 
 ## **Contact**
