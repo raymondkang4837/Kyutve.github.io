@@ -3,30 +3,26 @@ layout: default
 ---
 
 <style>
-/* 전체 컨테이너 간격 확장 */
-/* 레이아웃 전체 */
 .container {
   display: flex;
   gap: 60px;
-  width: 100%; 
-  max-width: 3000px;       /* 페이지 전체 폭 확장 */
+  width: 100%;
+  max-width: 3000px;
   margin: 60px auto;
-  align-items: flex-start; /* 위 정렬 */
+  align-items: flex-start;
 }
 
-/* 프로필은 고정 크기 */
 .profile {
-  flex: 1;         /* 고정 폭 */
+  flex: 1;
   min-width: 340px;
 }
 
-/* 본문 영역은 나머지 공간 전부 사용 */
 .info {
-  flex: 2;                 /* 남은 영역 전부 차지 */
-  max-width: 100%;         /* 넓게 확장 */
+  flex: 2;
+  max-width: 100%;
   line-height: 1.85;
 }
-/* 프로필 이미지 정렬 + 크기 */
+
 .profile img {
   width: 95%;
   height: auto;
@@ -34,13 +30,19 @@ layout: default
   margin: 0 auto 18px auto;
   display: block;
 }
-/* 프로필 텍스트 간격 재정비 */
+
 .profile h3 {
   margin-bottom: 12px;
   font-size: 1.25rem;
   font-weight: 600;
 }
 
+.profile p {
+  line-height: 1.7;
+  margin-bottom: 14px;
+}
+
+/* ===== 아이콘 리스트 ===== */
 
 .icon-list {
   list-style: none;
@@ -55,20 +57,17 @@ layout: default
   margin-bottom: 10px;
 }
 
-/* SVG / PNG 아이콘 */
 .icon {
   width: 18px;
   height: 18px;
   object-fit: contain;
 }
 
-/* 이모지 크기 통일 */
 .emoji {
   width: 18px;
   text-align: center;
 }
 
-/* 링크 스타일 */
 .icon-list a {
   color: #0366d6;
   text-decoration: none;
@@ -78,35 +77,7 @@ layout: default
   text-decoration: underline;
 }
 
-  
-.icon-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.icon-item .icon {
-  width: 18px;
-  height: 18px;
-  object-fit: contain;
-}
-.profile p, .profile ul {
-  line-height: 1.7;
-  margin-bottom: 14px;
-}
-
-
-h1 {
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 700;
-}
-
-.contact a {
-  text-decoration: none;
-  color: #0366d6;
-}
-
+/* layout override */
 .wrapper,
 .page-content {
   max-width: none !important;
@@ -117,43 +88,34 @@ h1 {
 <div class="container">
 
 <div class="profile">
-  <img src="./images/profile.jpg" alt="profile"> <!-- 프로필 이미지 경로 -->
+  <img src="./images/profile.jpg" alt="profile">
+
   <h3>Kyutae Kang</h3>
   <p>I major in Mathematics 📏 and have interest in Computer Vision</p>
-  
+
   <ul class="icon-list">
     <li>
-      <span class="emoji">📍</span> Seoul, Korea
+      <img src="./images/googlemaps.svg" class="icon" alt="Maps">
+      <span>Seoul, Korea</span>
     </li>
     <li>
-      <span class="emoji">🏦</span> Kyung Hee University
+      <span class="emoji">🏦</span>
+      <span>Kyung Hee University</span>
     </li>
     <li>
-      <img src="./images/email.svg" class="icon" alt="Email">
+      <img src="./images/gemail.svg" class="icon" alt="Email">
       <a href="mailto:raymondkang4837@email.com">Email</a>
     </li>
     <li>
       <img src="./images/github.svg" class="icon" alt="GitHub">
-      <a href="https://github.com/raymondkang4837" target="_blank">GitHub</a>
+      <a href="https://github.com/raymondkang4837" target="_blank" rel="noopener noreferrer">
+        GitHub
+      </a>
     </li>
     <li>
-      <span class="emoji">🏡</span>
+      <img src="./images/tstory.svg" class="icon" alt="Blog">
       <a href="https://azurei.tistory.com/" target="_blank">Blog</a>
     </li>
-  </ul>
-
-
-    
-  <li>📍 Seoul, Korea</li>
-  <li>🏦 Kyung Hee University</li>
-  <li>📧 <a href="mailto:raymondkang4837@email.com">Email</a></li>
-  <li class="icon-item">
-    <img src="./images/github.svg" alt="GitHub" class="icon">
-    <a href="https://github.com/raymondkang4837" target="_blank" rel="noopener noreferrer">
-    GitHub
-    </a>
-  </li>
-  <li>🏡 <a href="https://azurei.tistory.com/" target="_blank">Blog</a></li>
   </ul>
 </div>
 
