@@ -17,7 +17,7 @@ title: ""
 
 /* 프로필은 고정 크기 */
 .profile {
-  flex: 1px;         /* 고정 폭 */
+  flex: 1;         /* 고정 폭 */
   min-width: 340px;
 }
 
