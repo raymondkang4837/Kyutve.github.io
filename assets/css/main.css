@@ -17,6 +17,10 @@
   max-width: 100%;
   line-height: 1.85;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 .info > *:first-child {
   margin-top: 0;
   padding-top: 0;
