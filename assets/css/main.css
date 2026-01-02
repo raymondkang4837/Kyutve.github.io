@@ -17,6 +17,20 @@
   max-width: 100%;
   line-height: 1.85;
 }
+
+/* ===== index.md 첫 문단 강조 ===== */
+.info > p:first-of-type {
+  font-size: 1.25rem;      /* 글씨 키우기 */
+  line-height: 1.75;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 28px;
+
+  /* 영어 소개에 어울리는 폰트 */
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+
 body {
   margin: 0;
   padding: 0;
