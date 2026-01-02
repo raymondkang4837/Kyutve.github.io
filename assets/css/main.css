@@ -21,9 +21,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.info p:first-child {
-  font-size: 1.15rem;
-}
 
 .profile img {
   width: 95%;
