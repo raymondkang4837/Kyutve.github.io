@@ -48,15 +48,29 @@ layout: default
   list-style: none;
   padding: 0;
   margin-top: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .icon-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
 }
-
+  
+.icon-wrapper {
+  width: 22px;               
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+}
+.icon-wrapper.emoji {
+  font-size: 18px;
+  line-height: 1;
+}
+  
 .icon {
   width: 18px !important;
   height: 18px !important;
@@ -93,30 +107,42 @@ layout: default
   <h3>Kyutae Kang</h3>
   <p>I major in Mathematics 📏 and have interest in Computer Vision</p>
 
-  <ul class="icon-list">
-    <li>
+<ul class="icon-list">
+  <li>
+    <span class="icon-wrapper">
       <img src="./images/googlemaps.svg" class="icon" alt="Maps">
-      <span>Seoul, Korea</span>
-    </li>
-    <li>
-      <span class="emoji">🏦</span>
-      <span>Kyung Hee University</span>
-    </li>
-    <li>
-      <img src="./images/gmail.svg" class="icon" alt="Email"> 
-      <a href="mailto:raymondkang4837@email.com">Email</a>
-    </li>
-    <li>
+    </span>
+    <span>Seoul, Korea</span>
+  </li>
+
+  <li>
+    <span class="icon-wrapper emoji">🏦</span>
+    <span>Kyung Hee University</span>
+  </li>
+
+  <li>
+    <span class="icon-wrapper">
+      <img src="./images/gmail.svg" class="icon" alt="Email">
+    </span>
+    <a href="mailto:raymondkang4837@email.com">Email</a>
+  </li>
+
+  <li>
+    <span class="icon-wrapper">
       <img src="./images/github.svg" class="icon" alt="GitHub">
-      <a href="https://github.com/raymondkang4837" target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
-    </li>
-    <li>
+    </span>
+    <a href="https://github.com/raymondkang4837" target="_blank" rel="noopener noreferrer">
+      GitHub
+    </a>
+  </li>
+
+  <li>
+    <span class="icon-wrapper">
       <img src="./images/tistory.svg" class="icon" alt="Blog">
-      <a href="https://azurei.tistory.com/" target="_blank">Blog</a>
-    </li>
-  </ul>
+    </span>
+    <a href="https://azurei.tistory.com/" target="_blank">Blog</a>
+  </li>
+</ul>
 </div>
 
 
