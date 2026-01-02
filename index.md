@@ -183,7 +183,7 @@ Docs, PyTorch, NumPy, Matplotlib, Git
 
 Math: Linear Algebra, PDE, Optimization, Matrix Calculus
 
-![Notion](https://img.shields.io/badge/notion-#000000?style=flat-square&logo=notion&logoColor=white)
+![Notion](https://img.shields.io/badge/notion-000000?style=flat-square&logo=Notion&logoColor=white)
 
 
 <br><br>
