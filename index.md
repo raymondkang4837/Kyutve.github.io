@@ -165,6 +165,9 @@ I document what I learn on [my blog](https://azurei.tistory.com/) — from conce
 <br><br>
 
 ## **Education**
+---
+
+
 B.S. in Mathematics, Kyung Hee University ( 2020.03 ~ 2026.02 )
 
 GPA: 4.16 / 4.5 ( Major : 4.24 / 4.5 )
@@ -178,6 +181,8 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 <br><br>
 
 ## **Skills**
+---
+
 ![Notion](https://img.shields.io/badge/notion-000000?style=flat-square&logo=Notion&logoColor=white)
 ![Colab](https://img.shields.io/badge/googlecolab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
@@ -194,6 +199,8 @@ Numerical Analysis, Differential Geometry, Linear Algebra, Probability Theory, S
 <br><br>
 
 ## **Contact**
+---
+
 
 I’d be happy to talk more — feel free to reach out anytime!
 
