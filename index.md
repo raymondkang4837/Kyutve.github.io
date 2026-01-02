@@ -56,7 +56,7 @@ layout: default
 
 .icon-list li {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   line-height: 1.2;
 }
   
